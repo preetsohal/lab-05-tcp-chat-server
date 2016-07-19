@@ -1,0 +1,12 @@
+As a developer----
+
+    instruction :-
+
+       once you clone the file in your root directory. open it up in the atom.
+       you don't need special dependencies for this project.
+       you need to run command npm init in order to run node.
+       in terminal type node server.js (you can have different file name).
+       this will connect to server.
+       you can open bunch of other terminals as well and type telnet localhost 3000 to chat with other terminal.
+
+       note -  i still need to fix echo coz user see its own message. 

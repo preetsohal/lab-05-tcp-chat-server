@@ -9,4 +9,11 @@ As a developer----
        this will connect to server.
        you can open bunch of other terminals as well and type telnet localhost 3000 to chat with other terminal.
 
-       note -  i still need to fix echo coz user see its own message. 
+ test instruction:-
+
+      npm init is first step you will type in command line.
+      in order to perform test you will need to run command  ----- npm i -D chai mocha ---------  .
+      run npm test in command line. and that is it.
+
+
+      note -  i still need to fix echo coz user see its own message. 

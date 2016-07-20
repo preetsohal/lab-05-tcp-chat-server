@@ -1,15 +1,22 @@
 {
   "name": "tcp-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "As a developer----",
   "main": "server.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "keywords": [
+    "test"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
 }

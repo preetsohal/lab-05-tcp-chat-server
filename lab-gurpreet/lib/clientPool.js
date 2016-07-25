@@ -1,9 +1,6 @@
   'use strict';
   const EE = require('events');
-  const net = require('net');
-  const randomGen = function() {
-    return Math.floor(Math.random() * (1000 - 1) + 1);
-  };
+  
   module.exports = function clientPool() {
     this.ee = new EE();
     this.pool = {};
@@ -39,5 +36,3 @@
       this.pool[socket.id] = socket;
     });
   };
-
- module.exports = exports = clientPool;

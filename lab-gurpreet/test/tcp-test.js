@@ -20,7 +20,7 @@ describe('chat server', function() {
     let client2 = net.connect({
       port
     });
-    var messages = ['test message', 'hello from the server\n'];
+    var messages = ['test message', 'Welcome to the chatroom!\n'];
     var toSend = ['test message'];
 
     client2.on('data', function(data) {
